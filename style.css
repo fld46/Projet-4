@@ -517,25 +517,7 @@ button {
     box-shadow: none;
 }
 
-.scrollToTop {
-    width: 40px;
-    height: 40px;
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    opacity: 0;
-    z-index: 500;
-    transition: all .3s ease-in-out;
-}
 
-.scrollToTop span {
-    margin-top: 6px;
-}
-
-.showScrollTop {
-    font-size: 14px;
-    opacity: 1;
-}
 
 a[data-lightbox] {
     position: relative;
@@ -1068,6 +1050,26 @@ h4 {
     .blocsapp-device-iphone5 img {
         width: 180px;
         height: 320px;
+    }
+
+    .scrollToTop {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        opacity: 0;
+        z-index: 500;
+        transition: all .3s ease-in-out;
+    }
+
+    .scrollToTop span {
+        margin-top: 6px;
+    }
+
+    .showScrollTop {
+        font-size: 14px;
+        opacity: 1;
     }
 }
 
