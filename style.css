@@ -462,6 +462,8 @@ nav .caret {
 .mg-md {
     margin-top: 10px;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 1000;
 }
 
 .mg-lg {
