@@ -9,10 +9,12 @@ body {
 
 img {
     width: 100%;
+    height: auto;
 }
 
 .center-block {
     width: 100px;
+    height: auto;
 }
 
 a,
