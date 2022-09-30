@@ -7,6 +7,14 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+img {
+    width: 100%;
+}
+
+.center-block {
+    width: 100px;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
